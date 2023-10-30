@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Methods.credential("JJJJJJJJJJ22", "KKKKKKKK8888", "KKKKKKKK8888");
+
     }
 }
