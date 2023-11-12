@@ -5,7 +5,7 @@ public class Methods {
 
     public static boolean credential(String login, String password, String confirmPassword) {
         if (!login.matches(LATIN)) {
-            throw new WrongLoginException("Неверно введен логин, используйте латинские буквы и цифры");
+            throw new WrongLoginException("Неверно введен логин, используйте латинские буквы");
         }
         if (!password.matches(LATIN)) {
             throw new WrongPasswordException(" Попробуйте другой пароль");
